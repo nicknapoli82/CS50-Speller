@@ -6,7 +6,7 @@ This version still uses the original, unmodified speller.c and dictionary.h file
 I did this to work through some of the pains of FFI in Rust, and just to make sure I knew how it works.
 
 Compilation is a 2 step task.
-First compile dictionary.h to an object file:
+First compile dictionary.rs to an object file:
 
 rustc -O --emit obj --crate-type staticlib dictionary.rs
 
